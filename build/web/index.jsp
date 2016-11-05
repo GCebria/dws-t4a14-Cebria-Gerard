@@ -7,7 +7,7 @@
 <%@page import="entidades.Producto"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.*"%>
-<jsp:useBean id="producto" scope="session" class="Producto" />
+<jsp:useBean id="producto" scope="session" class="entidades.Producto" />
 <!DOCTYPE html>
 
 <html>
